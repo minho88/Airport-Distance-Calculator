@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: roboto;
+}
+
+#head {
+	height: 50px;
+	background-color: #ff8a07;
+}
+
+.moat_logo {
+	margin: 0 auto;
+    display: block;
+    padding-top: 9px;
+}
+
+p.name {
+    text-align: center;
+    font-weight: bold;
+}
+
+#googleMap {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+#selector_container {
+	text-align: center;
+    float: left;
+    min-height: 784px;
+    background: white;
+    position: absolute;
+}
+
+.content_title {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 18px;
+}
+
+.point-header {
+    display: inline-block;
+    margin-right: .5em;
+    width: 15%;
+    font-size: 12px;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	min-height: 784px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#point1, #point2 {
+    font-size: 12px;
+    height: 35px;
+    width: 200px;
+    border-bottom: 1px solid #ff8a07;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.autocomplete-suggestions {
+	position: absolute;
+	background: white;
+	border: 1px solid #ccc;
+	transition: .5s;
+	font-size: 10px;
+	max-height: 254px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.autocomplete-suggestion.selected {
+    background: #f0f0f0;
+}
+
+.autocomplete-suggestion {
+	padding: 5px;
+}
+
+.right, .left {
+	display: inline-block;
+}
+
+.left {
+	width: 315px;
+}
+
+.right {
+	width:80%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.row {
+	width: 100%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.row:nth-child(4) {
+	margin-top: 1em;
+}
+
+.link {
+	text-decoration: none;
+}
+
+#button, #google-btn {
+	width: 200px;
+    height: 35px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 35px;
+    background: #ff8a07;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#button:hover, #google-btn:hover {
+	background: #ffa138;
+}
+
+.gm-style-iw > div > div {
+	font-weight: bold;
+}
+
+#results {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.highlight {
+	color : #ff8a07;
+	margin-top: .3em;
+}
+
+#footer_container {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+	left: 10px;
+	color: #909090;
+}

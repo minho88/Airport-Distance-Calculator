@@ -1,0 +1,10 @@
+This was a fun excercise to work on. While working on this I leveraged the google maps api to complete the majority of the assignment.
+Initially I wanted to use google places api to be able to access an array of locations for airports. Unfortunately I discovered there were
+some limitations to google places. One fallback was the type of airports which were supplied. A lot of false information came in 
+since it allowed any vendor to label themself as an airports. Another was the scope of information it could provide. Which was limited
+to a radius of 50k meters. 
+
+Instead I decided to compile a list of major airport hubs in the US to fall back on which I set up myself. With the array I was able to set 
+up the rest of the major functions of the assignment which I go further in detail in the comments.
+
+

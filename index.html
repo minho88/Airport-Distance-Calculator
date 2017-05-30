@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Airport Distance App</title>
+    <link rel="stylesheet" href="styles/style.css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="description" content="Moat Coding Test by Minho Ha">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div id="head">
+    
+  </div>
+
+  <div id="content">
+
+    <div class="right">
+      <div id="googleMap"></div>
+    </div>
+
+      <div id="selector_container" class="left">
+
+        <h1 class="content_title">Distance in Nautical Miles</h1>
+
+        <div class="row">
+          <input type="text" id="point1" placeholder="Portland - PDX">
+        </div>
+
+        <div class="row">
+          <input type="text" id="point2" list="location" placeholder="Charlotte Douglas - CLT">
+        </div>
+
+        <div class="row">
+          <div id="button">Calculate Distance</div>
+        </div>
+
+        <div class="row">
+          <a class="link" href="#" target="_blank"><div id="google-btn">Directions</div></a>
+        </div>
+
+        <div class="row">
+          <div id="results"></div>
+        </div>
+
+        <div id="footer_container">
+          <p class="name">Minho Ha</p>
+        </div>
+
+      </div>
+  </div>
+
+  <script src="js/vendor/underscore-min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src="js/vendor/auto-complete.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxGHBsOMZ_cF2oq0g8MbpbyzG_7GlafyE&callback=myMap&libraries=geometry"></script>
+
+</body>
+</html>
